@@ -9,6 +9,8 @@ from django.db.models import Q
 from .models import Profile, Message
 from .forms import CustomUserCreationForm, ProfileForm, SkillForm, MessageForm
 from .utils import searchProfiles, paginateProfiles
+from django.contrib.auth.forms import UserCreationForm
+
 
 
 def loginUser(request):
@@ -47,6 +49,7 @@ def logoutUser(request):
 def registerUser(request):
     page = 'register'
     form = CustomUserCreationForm()
+    form1=UserCreationForm()
 
     if request.method == 'POST':
         form = CustomUserCreationForm(request.POST)
@@ -64,7 +67,7 @@ def registerUser(request):
             messages.success(
                 request, 'An error has occurred during registration')
 
-    context = {'page': page, 'form': form}
+    context = {'page': page, 'form': form,'form1':form1}
     return render(request, 'users/login_register.html', context)
 
 
@@ -118,6 +121,7 @@ def editAccount(request):
 @login_required(login_url='login')
 def createSkill(request):
     profile = request.user.profile
+    print(request.user.profile)
     form = SkillForm()
 
     if request.method == 'POST':
