@@ -1,4 +1,4 @@
-# DevSearch
+# Connect
 <div align="center">
   <strong>Connect with Developers from Around the World</strong>
 </div>
@@ -11,14 +11,14 @@
   <a href="#getting-started">Getting Started</a> •
   <a href="#usage">Usage</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#devsearch-api">Devsearch API</a>
+  <a href="#Connect-api">Connect API</a>
 </p>
 
 ---
 
 ## About
 
-DevSearch is a developer networking platform that empowers developers to showcase their skills, collaborate on projects, and connect with peers from around the world. Whether you're looking for a co-founder for your startup, seeking contributors for your open-source project, or simply want to connect with like-minded developers, DevSearch is the place to be.
+Connect is a developer networking platform that empowers developers to showcase their skills, collaborate on projects, and connect with peers from around the world. Whether you're looking for a co-founder for your startup, seeking contributors for your open-source project, or simply want to connect with like-minded developers, Connect is the place to be.
 
 ## Features
 
@@ -55,7 +55,7 @@ User authentication system with secure password storage and session management.
 
 ### 7. Responsive Design
 
-DevSearch is fully responsive, ensuring a seamless experience on both desktop and mobile devices.
+Connect is fully responsive, ensuring a seamless experience on both desktop and mobile devices.
 
 ## Getting Started
 
@@ -71,8 +71,8 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
  ```bash
- git clone https://github.com/trial-start/devSearch.git
- cd devsearch
+ git clone https://github.com/trial-start/Connect.git
+ cd Connect
  ```
 
 2. Create a virtual environment (optional but recommended):
@@ -101,11 +101,11 @@ Before you begin, ensure you have met the following requirements:
   python manage.py runserver
    ```
 
-6. Now you can access the DevSearch platform at http://127.0.0.1:8000/ and start using it.
+6. Now you can access the Connect platform at http://127.0.0.1:8000/ and start using it.
 
 ## Usage
 
-1. **Visit the Platform:** Go to the DevSearch platform and either create a user account or log in if you already have one.
+1. **Visit the Platform:** Go to the Connect platform and either create a user account or log in if you already have one.
 
 2. **Create Your Developer Profile:**
    - Provide your personal details and skills to create a comprehensive developer profile.
@@ -153,16 +153,16 @@ Contributions to this project are highly appreciated! Here's how you can contrib
 - Describe your changes and provide any relevant details in the pull request.
 - Your contribution will be reviewed, and once accepted, it will be merged into the main project.
 
-## DevSearch API
+## Connect API
 
-For developers who want to interact with the DevSearch backend via API, we provide a RESTful API powered by Django REST framework. Below are some of the key features of the DevSearch API:
+For developers who want to interact with the Connect backend via API, we provide a RESTful API powered by Django REST framework. Below are some of the key features of the Connect API:
 
-## DevSearch API Features
+## Connect API Features
 
 ### 1. Retrieve Project List
 
 - **Endpoint:** `/api/projects`
-- **Description:** Retrieve a list of all projects available on DevSearch.
+- **Description:** Retrieve a list of all projects available on Connect.
 
 ### 2. Get Project Details
 
@@ -195,7 +195,7 @@ For developers who want to interact with the DevSearch backend via API, we provi
 - **Description:** Allows the removal of tags from a project for better organization.
 
 
-These API features allow developers to build applications, integrations, or custom tools that leverage DevSearch's data and functionality. Whether you want to create a mobile app, integrate DevSearch with your website, or explore new ways to interact with the platform, our API is here to help you achieve your goals.
+These API features allow developers to build applications, integrations, or custom tools that leverage Connect's data and functionality. Whether you want to create a mobile app, integrate Connect with your website, or explore new ways to interact with the platform, our API is here to help you achieve your goals.
 
 
 
